@@ -12,7 +12,8 @@ function Navbar() {
                             <div className="flex-none">
                                 <ul className="menu menu-horizontal bg-base-200 rounded-box">
                                     <li>
-                                        <a>
+                                        {/* Icon Home */}
+                                        <a href="/">
                                             <svg
                                                 xmlns="http://www.w3.org/2000/svg"
                                                 className="h-5 w-5"
@@ -28,6 +29,7 @@ function Navbar() {
                                         </a>
                                     </li>
                                     <li>
+                                        {/* Icon Star */}
                                         <a>
                                             <svg
                                                 xmlns="http://www.w3.org/2000/svg"
